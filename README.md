@@ -15,7 +15,7 @@ Wikicorpus is a tool to work on wiki dump xml files provided by gensim. Using th
 In most of the NLP project needs preprocessing steps to clean the dataset and create workable scheme. Although preporcessing steps depends on the nature of the project, frequently used steps are converting lowercase, removing stopwords and applying lemmatization. It can be done mentioned preprocessed steps using Wikicorpus tool without stopwords. In this project we applied lemmatization with WordNetLemmatizer  and Stopwords provided by NLTK. 
 
 It is removed stopwords like "a", "an","herself", "it","are", "was"...
+
 Lemmatization eliminates the prefixes and suffixes and gives lemma that should be an actual language word.
-Example lemmatization;
-                      butterflies->butterfly
-                       playing->play
+
+Example lemmatization;butterflies->butterfly , playing->play
