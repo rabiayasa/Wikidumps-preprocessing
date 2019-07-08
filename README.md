@@ -19,3 +19,5 @@ It is removed stopwords like "a", "an","herself", "it","are", "was"...
 Lemmatization eliminates the prefixes and suffixes and gives lemma that should be an actual language word.
 
 Example lemmatization;butterflies->butterfly , playing->play
+
+result and combine (small files)
