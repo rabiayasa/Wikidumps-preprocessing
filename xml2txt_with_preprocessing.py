@@ -1,4 +1,4 @@
-#without stopwords
+#without stemming
 
 import time
 import os
