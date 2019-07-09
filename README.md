@@ -23,4 +23,12 @@ Example lemmatization;butterflies->butterfly , playing->play
 # Advantage of working with partitioned files
 Wikidumps average size for English language is 16-17 gb. It is recommended to work with partitioned files in order to see the results of the preprocessing steps on the file and to make possible quick work. In this work, we work partitioned files (total number of xml wikidumps files are 56 , dated 01/05/2019).
 
-result and combine (small files)
+The preprocessing outputs are saved as txt files. It can be combined for model training using combination.py file.
+
+Preprocessing Outputs
+```
+carnegie mellon school architecture pittsburgh pennsylvania degree granting institution one five division carnegie mellon university
+college fine art succeeds department architecture founded henry hornbostle architect designed original campus continues offer five 
+year undergraduate first professional bachelor architecture degree two three year graduate master architecture first professional 
+degree school architecture slogan art technology meet practice current head school stephen lee pedagogy undergraduate curriculum...
+```
