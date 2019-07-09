@@ -10,7 +10,7 @@ Install gensim
 pip install --upgrade gensim
 ```
 # Wikicorpus by Gensim
-Wikicorpus is a tool to work on wiki dump xml files provided by gensim. Using this tool it can be easily created text files that is includes only article titles and texts because, this module deals with unwanted tags, frames or infoboxes easily. 
+Wikicorpus is a tool to work on wiki dump xml files provided by gensim. Using this tool it can be easily created text files that is includes only article titles and texts because, this module deals with unwanted tags, frames, infoboxes easily and does cleaning special characters and removing punctuations. 
 
 In most of the NLP project needs preprocessing steps to clean the dataset and create workable scheme. Although preporcessing steps depends on the nature of the project, frequently used steps are converting lowercase, removing stopwords and applying lemmatization. It can be done  preprocessed steps(mentioned) using Wikicorpus tool without stopwords. In this project we applied lemmatization with WordNetLemmatizer  and Stopwords provided by NLTK. 
 
@@ -19,5 +19,8 @@ It is removed stopwords like "a", "an","herself", "it","are", "was"...
 Lemmatization eliminates the prefixes and suffixes and gives lemma that should be an actual language word.
 
 Example lemmatization;butterflies->butterfly , playing->play
+
+# Advantage of working with partitioned files
+Wikidumps average size for English language is 16-17 gb. It is recommended to work with partitioned files in order to see the results of the preprocessing steps on the file and to make possible quick work. In this work, we work partitioned files (total number of xml wikidumps files are 56 , dated 01/05/2019).
 
 result and combine (small files)
